@@ -23,7 +23,7 @@ body {
     }
 
     html {
-    font-size: 55.5%;
+    font-size: 52.5%;
     overflow-x: hidden;
     scroll-padding-top: 6rem;
     scroll-behavior: smooth;
@@ -130,7 +130,7 @@ section{
  }
 
 .card-air:hover {
-  box-shadow: 20px 20px 20px 20px #ef3805;
+  box-shadow: 20px 20px 20px 20px #ffa500;
   transform: scale(1.01);
 }
 
@@ -207,7 +207,7 @@ section{
  }
 
 .card-tech:hover {
-  box-shadow:  10px 20px 20px 20px rgb(6, 80, 190);
+  box-shadow:  10px 20px 20px 20px #ffa500;
   transform: scale(1.01);
 }
 
@@ -317,7 +317,7 @@ header .logo{
         margin:0.8rem;
         }
     header .navbar a:hover{
-        color:var(--orange);
+        color:var(#ffa500));
         }
      #menu-bar{
             color:#fff;
@@ -385,7 +385,8 @@ header .logo{
 
     .HOME .controls .vid-btn.active{
     background:var(--orange);
-    font-size: 30px;
+    font-size: 35px;
+    padding-right: 0px;
     }
 
     .HOME .inside{
@@ -616,7 +617,7 @@ header .logo{
     }
 
     .center_div:hover {
-      box-shadow:  5px 10px 30px 10px #24b50b;
+      box-shadow:  5px 10px 30px 10px #ffa500;
       transform: scale(1.01);
     }
 
@@ -743,13 +744,14 @@ transform:rotateX(5deg) ;
 
  .slider{
   position: relative;
-  width: 62%;
+  width: 56%;
   height: 58%;
   display: flex;
   flex-direction: row;
   align-items: left;
   justify-content: space-between;
-  animation: 38s cubic-bezier(1, 1, 1, 1) sliding infinite;
+
+  animation: 275s cubic-bezier(1, 1, 1, 1) sliding infinite;
  }
 
  .slide{
@@ -761,20 +763,20 @@ transform:rotateX(5deg) ;
  .slide img{
   width: 100%;
   height:100%;
-  background: orange
+  background: rgba(9, 8, 5, 0);
  }
 
  .slide .caption{
   position: absolute;
   left: 0;
-  bottom: 5%;
+  bottom: 2%;
   font-size: 3.5rem;
   font-weight: 600;
   color: #ffffff;
   text-transform: capitalize;
   background: rgba(51, 45, 45, 0.796);
   backdrop-filter: blur(10px);
-  padding: 1rem 5rem;
+  padding: 1rem 2rem;
   border-radius: 0 2rem 2rem 0;
  }
 
@@ -808,32 +810,32 @@ transform:rotateX(5deg) ;
     transform: translateX(0%);
   }
   10%{
-    transform: translateX(-150%);
+    transform: translateX(-140%);
   }
   20%{
-    transform: translateX(-300%);
+    transform: translateX(-280%);
   }
   30%{
-    transform: translateX(-450%);
+    transform: translateX(-420%);
   }
   40%{
-    transform: translateX(-600%);
+    transform: translateX(-560%);
   }
   50%{
-    transform: translateX(-750%);
+    transform: translateX(-700%);
   }
   60%{
-    transform: translateX(-900%);
+    transform: translateX(-840%);
   }
   70%{
-    transform: translateX(-1050%);
+    transform: translateX(-980%);
   }
   80%{
-    transform: translateX(-1100%);
+    transform: translateX(-1120%);
   }
 
   90%{
-    transform: translateX(-1250%);
+    transform: translateX(-1260%);
   }
 
 100%{
@@ -841,25 +843,285 @@ transform:rotateX(5deg) ;
   }
 
 110%{
-  transform: translateX(-1550%);
+  transform: translateX(-1540%);
 }
 
 120%{
-  transform: translateX(-1700%);
+  transform: translateX(-1680%);
 }
 
 130%{
-  transform: translateX(-1850%);
+  transform: translateX(-1820%);
 }
 
 140%{
   
-    transform: translateX(-2000%);
+    transform: translateX(-1960%);
   }
+ 
+
+150%{
   
+  transform: translateX(-2100%);
+}
+
+160%{
+  transform: translateX(-2240%);
+}
+
+170%{
+  transform: translateX(-2380%);
+}
+
+180%{
+  transform: translateX(-2520%);
+}
+
+190%{
+  transform: translateX(-2660%);
+}
+
+200%{
+  transform: translateX(-2800%);
+}
+
+210%{
+  transform: translateX(-2940%);
+}
+
+220%{
+
+    transform: translateX(-3080%);
+    
+}
+
+230%{
+
+  transform: translateX(-3220%);
+  
+}
+
+240%{
+
+  transform: translateX(-3360%);
+  
+}
+
+250%{
+
+  transform: translateX(-3500%);
+  
+}
+
+260%{
+
+  transform: translateX(-3640%);
+  
+}
+
+270%{
+
+  transform: translateX(-3780%);
+  
+}
+
+280%{
+
+  transform: translateX(-3920%);
+  
+}
+
+290%{
+
+  transform: translateX(-4060%);
+  
+}
+
+290%{
+
+  transform: translateX(-4180%);
+  
+}
+
+300%{
+
+  transform: translateX(-4300%);
+  
+}
+
+310%{
+
+  transform: translateX(-4420%);
+  
+}
+
+320%{
+
+  transform: translateX(-4540%);
+  
+}
+
+
+330%{
+
+  transform: translateX(-4660%);
+  
+}
+
+340%{
+  transform: translateX(-4780%);
+}
+
+350%{
+  transform: translateX(-4900%);
+}
+
+ }
+
+ 
+ 
+  
+ 
+  
+  
+  
+  
+ /*Team Slideshow Ends*/
+
+/*Isometric Menu Section Starts*/
+
+.isometric-menu{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+.isometric-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+}
+
+.isometric-menu ul{
+  position: relative;
+  transform: skewY(-15deg);
+  transition: 0s;
+}
+
+.isometric-menu ul li{
+  position: relative;
+  list-style: none;
+  width:200px;
+  background: #3e3f46;
+  padding: 10px;
+  z-index: var(--i);
+  transition: 2s;
+}
+
+.isometric-menu ul li:hover{
+background: #33a3ee;
+transform: translateX(-80px);
+}
+
+
+.isometric-menu ul li::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -40px;
+  width: 40px;
+  height: 20px;
+  background: orange;
+  transform-origin: right;
+  transform: skewY(45deg);
+  transform: 2s;
+}
+
+.isometric-menu ul li:hover::before{
+  background: #0c3958;
+}
+
+.isometric-menu ul li::after{
+  content: '';
+  position: absolute;
+  top: -40px;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background: rgb(32, 29, 29);
+  transform-origin: bottom;
+  transform: skewX(45deg);
+  transition: 2s;
+}
+
+.isometric-menu ul li:hover::after{
+  background: #0c3958;
+}
+
+.isometric-menu ul li a{
+  text-decoration: none;
+  color:#fbfaf9;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  transition: 2s;
+}
+
+.isometric-menu ul li:hover a{
+  color: #fff;
+}
+
+.isometric-menu ul li:last-child::after{
+  box-shadow: -100px 100px 20px rgba(0,0,0,0.25);
+
+}
+
+/*Isometric Menu Section Ends*/
+
+/*About Image Rotation Section Starts*/
+.aero-image:after{
+  transform-origin : 0% 100%;
+transform:skewX(50deg) ;
+}
+
+.aero-image:hover{
+  transform: translate(-50px) rotate(-360deg);
+  transition: 0.1s;
+}
+/*About Image Rotation Section Ends*/
+
+/*Aircrafts Image Rotation Section Starts*/
+.cards-air:after{
+  transform-origin : 0% 100%;
+transform:skewX(15deg) ;
+}
+
+.cards-air:hover{
+  transform: translate(5px) rotate(-1deg);
+  transition: 5s;
+}
 
 
 
+
+
+
+
+
+ /*Sponsor Section Starts*/
+
+ .sponsor img{
+  border-radius: 80px;
+  
+ }
+
+ .sponsor:hover img{
+  box-shadow:  5px 10px 20px 20px #fbfaf9;
+ }
+ /*Sponsor Section Ends*/
  
  
  
