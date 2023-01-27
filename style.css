@@ -1113,6 +1113,7 @@ transform:skewX(15deg) ;
 
  /*Sponsor Section Starts*/
 
+  
  .sponsor img{
   border-radius: 80px;
   
@@ -1124,9 +1125,28 @@ transform:skewX(15deg) ;
  /*Sponsor Section Ends*/
  
  
- 
- 
- 
+ /* Contribution Buttons*/
+ .contribute-sec {
+    display: grid;    
+    justify-content: center;
+    margin: 2rem;
+ }
+
+ .contribute-btn {
+    cursor: pointer;
+    text-align: center;
+    background-color: var(--orange);
+    padding: 1rem;
+    margin: 2rem;
+    border: 2px solid var(--orange);
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 2.5rem;
+ }
+ .contribute-btn:hover {
+    color: black;
+}
+
 
 
 
