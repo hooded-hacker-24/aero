@@ -300,6 +300,8 @@ header {
   body
   {
     overflow:hidden;
+    width:100vw;
+    
   }
   header {
     height: 60px;
