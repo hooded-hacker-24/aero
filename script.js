@@ -76,3 +76,7 @@ mq.addListener(function(changed) {
 });
 
 
+window.addEventListener("load", function () {
+  const loader = document.getElementById("preloader");
+  loader.classList.add("hidden");
+});
