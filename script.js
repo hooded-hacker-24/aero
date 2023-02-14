@@ -80,3 +80,16 @@ window.addEventListener("load", function () {
   const loader = document.getElementById("preloader");
   loader.classList.add("hidden");
 });
+var footer = document.getElementById('footer');
+
+window.addEventListener('scroll', function() {
+  var scrollHeight = document.documentElement.scrollHeight;
+  var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+  var clientHeight = document.documentElement.clientHeight;
+
+  if (scrollTop + clientHeight >= scrollHeight) {
+    footer.classList.add('show');
+  } else {
+    footer.classList.remove('show');
+  }
+});
