@@ -369,7 +369,7 @@ header .logo{
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-floW: column;
+        flex-flow: column;
         position : relative;
         Z-index: 0;
      }
@@ -1169,10 +1169,7 @@ transform:skewX(15deg) ;
  /*Sponsor Section Starts*/
 
   
- .sponsor img{
-  /* border-radius: 80px; */
-  
- }
+ 
 
  .sponsor:hover img{
   box-shadow:  5px 10px 20px 20px #fbfaf9;

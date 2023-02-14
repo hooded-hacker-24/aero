@@ -56,18 +56,23 @@ const mq = window.matchMedia("(min-width: 767px)");
 if (mq.matches) {
   // The viewport is wider than 767px
   document.querySelector('.navbar').style.display = 'block';
-
 } else {
   // The viewport is less than or equal to 767px
   document.querySelector('.navbar').style.display = 'none';
 }
 
+
+
 mq.addListener(function(changed) {
   if (changed.matches) {
     // The viewport has become wider than 767px
     document.querySelector('.navbar').style.display = 'block';
+    document.querySelector('header').style.backgroundColor='';
   } else {
     // The viewport has become less than or equal to 767px
     document.querySelector('.navbar').style.display = 'none';
+    document.querySelector('header').style.backgroundColor='#505050';
   }
 });
+
+
