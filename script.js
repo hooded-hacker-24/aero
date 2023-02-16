@@ -19,7 +19,7 @@ videoBtn.forEach(btn =>{
     if(window.innerWidth>767){
     const header = document.querySelector("header");
     if (window.pageYOffset > 60) {
-      header.style.backgroundColor = "#505050";
+      header.style.backgroundColor = "black";
     } else {
       header.style.backgroundColor = "transparent";
     }}
